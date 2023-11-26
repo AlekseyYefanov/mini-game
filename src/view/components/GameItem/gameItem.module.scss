@@ -1,0 +1,23 @@
+.item {
+    background-color: #11103e;
+    height: 100%;
+}
+
+.isUsed {
+    background-color: red;
+}
+
+.isActive {
+    background-color: yellow;
+    animation: active 1s ease-in-out infinite;
+}
+
+@keyframes active {
+    from {
+      background-color: yellow;
+    }
+  
+    to {
+      background-color: darkorange;
+    }
+  }

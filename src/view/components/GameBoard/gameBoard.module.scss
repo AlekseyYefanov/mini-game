@@ -1,0 +1,17 @@
+.gameContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 2px;
+}
+
+.timerTitle {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px auto;
+}
